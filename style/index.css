@@ -1,0 +1,20 @@
+:root {
+  --primary-blue: #281756;
+  --primary-yellow: #f9cb00;
+  --white: #ffffff;
+}
+
+.nav-link {
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  background-color: var(--primary-blue);
+  color: var(--white) !important;
+}
+
+.see-more:hover {
+  font-weight: 500;
+  color: var(--primary-blue);
+  cursor: pointer;
+}
